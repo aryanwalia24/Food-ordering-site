@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="/Images/favicon.ico" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="/javacriptcode.js"></script>
+	<script src="/darkmode.js"></script>
+	<title>GRAPHINOS</title>
+</head>
+
+<body id="top">
+	<div id="main">
+		<div id="header">
+			<div id="nav" class=".navbar">
+				<div id="hamm">
+					<div class="hamburger" onclick="this.classList.toggle('open')">
+						<div class="bar"></div>
+						<div class="bar"></div>
+						<div class="bar"></div>
+					</div>
+					<div class="dropdown">
+						<ul id="ham">
+							<li id="ham1"><a href="" id="top">Home</a></li><br>
+							<li id="ham1"><a href="#cafe" id="a2">Cafe</a></li><br>
+							<li id="ham1"><a href="#bott" id="a2">About Us</a></li><br>
+							<li id="ham1"><a href="#bot" id="a2">Menu</a></li><br>
+							<li id="ham1"><a href="#bot1" id="a2">Your Cart </a></li><br>
+							<li id="ham1"><a href="#contact" id="a2">Contact Us</a></li><br>
+							<li id="ham1"><a href="signup.html" id="a2">Log Out</a></li><br>
+
+						</ul>
+					</div>
+					<img src="/Images/logo23.png" alt="logo" id="navlogo">
+				</div>
+				<ul id="lis">
+					<li>
+						<div class="toggle-switch">
+							<label class="switch-label">
+								<input type="checkbox" class="checkbox" id="chk">
+								<span class="slider"></span>
+							</label>
+						</div>
+					</li>
+					<li class="list1"><a href="#top">Home</a></li>
+					<li class="list1"><a href="#cafe">Cafe</a></li>
+					<li class="list1"><a href="#bott">About Us</a></li>
+					<li class="list1"><a href="#bot">Menu</a></li>
+					<!-- <li class="list1"><a href="#contact">Contact Us</a></li> -->
+					<li class="list1"><a href="#bot1"><img src="/img/cartt.png" alt="carticon" id="carth"></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--		<welcome area>-->
+
+		<div id="main_box">
+			<div id="cont1">
+				<img src="" id="logo12" alt="logo" />
+				<main>
+					<pre id="slogan">What are you waiting for? Order online today,
+			Your favorite meals are just a click away!</pre>
+				</main>
+			</div>
+			<div class="container">
+				<div id="cont2">
+					<video loop autoplay muted id="promo" class="pro">
+						<source src="/Video/promo1.mp4" type="video/mp4">
+					</video>
+					<div class="overlay">
+						<img src="Images/logo2.png" id="logo123" alt="logo" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<section id="cafe">
+			<div class="top-left" id="sma">
+				<pre> A Glimpse of Our Restaurants</pre>
+			</div>
+			<div id="cont22">
+				<div class="carousel">
+					<div id="wallp1">
+						<img src="/carousel/i2.jpg" id="images12" alt="" />
+					</div>
+					<div id="wallp1">
+						<img src="/carousel/i4.jpg" id="images12" alt="" />
+					</div>
+					<div id="wallp1">
+						<img src="/carousel/i5.jpg" id="images12" alt="" />
+					</div>
+					<div id="wallp1">
+						<img src="/carousel/i6.jpg" id="images12" alt="" />
+					</div>
+					<div id="wallp1">
+						<img src="/carousel/i8.jpg" id="images12" alt="" />
+					</div>
+					<div id="wallp1">
+						<img src="/carousel/i7.jpg" id="images12" alt="" />
+					</div>
+					<div id="wallp1">
+						<img src="/carousel/i10.jpg" id="images12" alt="" />
+					</div>
+					<div id="wallp1">
+						<img src="/carousel/i11.jpg" id="images12" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<hr id="bott">
+	<div class="middle" id="midd">
+		<p id="small">About Us</p>
+		<h2 id="h22"> Freshness In Every Bite !</h2>
+		<section id="aboutusbox">
+			<div id="box1">
+				<p id="text1">
+					Graphinos Cafe is a trendy and cozy coffee shop located in the heart of the city. Known for their
+					signature coffee blends and delicious pastries, the cafe offers a relaxed atmosphere perfect for
+					catching up with friends or getting some work done.
+
+				</p>
+			</div>
+			<div id="box3">
+				<img src="Images/img3 (2).jpeg" alt="img3_" />
+			</div>
+		</section>
+	</div><br><br>
+	<hr id="bot">
+	<div id="foodheading">Menu</div>
+	<section id="menuh"><br><br>
+		<div class="menu" id="product-list">
+			<div class="food-items product">
+				<img src="./coffee/c1.jpg" width="320" height="237" alt="coffee">
+				<div class="details">
+					<div class="details-sub product">
+						<h5>
+							<p class="product-name"> Caffe Breve</p>
+						</h5>
+						<h5>
+							<p class="product-price">$11.45</p>
+						</h5>
+						<button class="add-to-cart" onclick="addToCart('Caffe Brece', 11.45)">Add to Cart</button>
+					</div>
+				</div>
+			</div>
+			<div class="food-items product">
+				<img src="./img/menu/34.jpg" width="320" height="237" alt="mango juice">
+				<div class="details">
+					<div class="details-sub product">
+						<h5>
+							<p class="product-name"> Mango Juice</p>
+						</h5>
+						<h5>
+							<p class="product-price">$5</p>
+						</h5>
+						<button class="add-to-cart" onclick="addToCart('Mango Juice', 5.00)">Add to Cart</button>
+					</div>
+				</div>
+			</div>
+			<div class="food-items product">
+				<img src="./img/menu/35.jpg" width="320" height="237" alt="mosambi juice">
+				<div class="details">
+					<div class="details-sub product">
+						<h5>
+							<p class="product-name"> Mosambi Juice</p>
+						</h5>
+						<h5>
+							<p class="product-price">$4.6</p>
+						</h5>
+						<button class="add-to-cart" onclick="addToCart('Mosambi Juice', 4.60)">Add to Cart</button>
+					</div>
+				</div>
+			</div>
+			<div class="food-items product">
+				<img src="./img/menu/36.jpg" alt="pomegranate juice">
+				<div class="details">
+					<div class="details-sub product">
+						<h5>
+							<p class="product-name"> Pomegranate Juice</p>
+						</h5>
+						<h5>
+							<p class="product-price">$9.9</p>
+						</h5>
+						<button class="add-to-cart" onclick="addToCart('Pomegranate Juice', 9.90)">Add to
+							Cart</button>
+					</div>
+				</div>
+			</div>
+			<div class="food-items product">
+				<img src="./img/menu/37.jpg" alt="lime water">
+				<div class="details">
+					<div class="details-sub product">
+						<h5>
+							<p class="product-name">Lime Water</p>
+						</h5>
+						<h5>
+							<p class="product-price">$3</p>
+						</h5>
+						<button class="add-to-cart" onclick="addToCart('Lime Water', 3.00)">Add to Cart</button>
+					</div>
+				</div>
+			</div>
+			<div class="food-items product">
+				<img src="./img/menu/38.jpg" alt="beetroot juice">
+				<div class="details">
+					<div class="details-sub product">
+						<h5>
+							<p class="product-name"> Beetroot Juice</p>
+						</h5>
+						<h5>
+							<p class="product-price">$8.75</p>
+						</h5>
+						<button class="add-to-cart" onclick="addToCart('Beetroot Juice', 8.75)">Add to Cart</button>
+					</div>
+				</div>
+			</div>
+			<div class="food-items product">
+				<img src="./img/menu/39.jpg" width="320" height="240" alt="watermelon juice">
+				<div class="details">
+					<div class="details-sub product">
+						<h5>
+							<p class="product-name">Watermelon Juice</p>
+						</h5>
+						<h5>
+							<p class="product-price">$6.6</p>
+						</h5>
+						<button class="add-to-cart" onclick="addToCart('Watermelon Juice', 6.60)">Add to
+							Cart</button>
+					</div>
+				</div>
+			</div>
+			<div class="food-items product">
+				<img src="./img/menu/40.jpg" width="320" height="240" alt="beer">
+				<div class="details">
+					<div class="details-sub product">
+						<h5>
+							<p class="product-name">Beer</p>
+						</h5>
+						<h5>
+							<p class="product-price">$15.90</p>
+						</h5>
+						<button class="add-to-cart" onclick="addToCart('Beer',15.90 )">Add to Cart</button>
+					</div>
+				</div>
+			</div>
+			<div class="food-items product">
+				<img src="./coffee/ris.jpg" width="320" height="240" alt="chicken manchurian">
+				<div class="details">
+					<div class="details-sub product">
+						<h5>
+							<p class="product-name"> Ristretto</p>
+						</h5>
+						<h5>
+							<p class="product-price">$25.25</p>
+						</h5>
+						<button class="add-to-cart" id="bot1" onclick="addToCart('Ristretto', 25.25)">Add to Cart</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- <hr id="bot1"> -->
+		<button id="yourcart" class="your-cart" style="align-content: center;" onclick="location.href='cart.html'">
+			<a class="your-cart" href="cart.html">Your Cart</a>
+		</button>
+	</section>
+	<script src="script.js"></script>
+	<h2 class="testimonial-title" id="small">Feedback</h2>
+	<section id="testimonials">
+		<div class="testimonial-container container">
+			<div class="testimonial-box">
+				<div class="customer-detail">
+					<div class="customer-photo">
+						<img src="images/review1.png" alt="" />
+						<p class="customer-name">Aryan</p>
+					</div>
+				</div>
+				<div class="star-rating">
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				</div>
+				<pre class="testimonial-text">I really like the atmosphere, good coffee, 
+and nice interior.</pre>
+			</div>
+			<div class="testimonial-box">
+				<div class="customer-detail">
+					<div class="customer-photo">
+						<img src="images/review2.jpg" alt="" />
+						<p class="customer-name">Muskan</p>
+					</div>
+				</div>
+				<div class="star-rating">
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				</div>
+				<pre class="testimonial-text">Will go again  .I only popped in 
+to get take-away cappuccinos
+			</pre>
+
+			</div>
+			<div class="testimonial-box">
+				<div class="customer-detail">
+					<div class="customer-photo">
+						<img src="images/review3.jpg" alt="" />
+						<p class="customer-name">Om Tiwari</p>
+					</div>
+				</div>
+				<div class="star-rating">
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				</div>
+				<pre class="testimonial-text">This coffee shop is my favorite place to
+hang and do my works
+			</pre>
+
+			</div>
+		</div>
+	</section>
+	<h2 id="smal" class="h22">Contact Us</h2>
+	<section id="contact">
+		<div class="contact-container container">
+
+			<div class="form-container">
+				<p>Section : G21-A</p>
+
+				Aryan Walia,&nbsp; &nbsp;Roll Number: 2210990185<br />
+				Aryan Sonkar,&nbsp;&nbsp;Roll Number: 2210990182<br />
+				Ashish Rana,&nbsp;&nbsp;Roll Number: 2210990187<br />
+				Ashish Kakarotti,&nbsp;&nbsp;Roll Number: 2210990186<br />
+
+			</div>
+			<div class="contact-img">
+				<img src="images/new.jpg" alt="" />
+			</div>
+		</div>
+	</section>
+	<footer id="foot">
+		<div class="footer">
+	</footer>
+	<script src="darkmode.js"></script>
+</body>
+
+</html>
